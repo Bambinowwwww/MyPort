@@ -1,0 +1,48 @@
+h1{
+    font-size:3.0em;
+    text-align: center;
+    color: #FF0000;
+    text-decoration: none;
+}
+
+div.scrollmenu{
+    background-color : #FFC125;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display:inline-block;
+    color:#000000;
+    text-align:center;
+    padding : 7px;
+    text-decoration: none;
+    border-style:;
+    font-family: impact;
+    margin-left: 25px;      <!--按键大小-->
+    margin-right: 25px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    letter-spacing: 1px;    <!--设置字间距-->
+    text-overflow: clip;
+
+}
+
+
+p{
+    text-indent: 30px;
+    color:#FF7773;
+    font-family: comic sans MS;  <!--改字体-->
+    padding-left:500px;
+    text-shadow: 1px 1px #FF0000;
+    text-overflow: ellipsis;
+     position:absolute;
+     left:100px;top:450px;right: 350px;
+
+
+}
+body{
+    background-image:url("images/sky.jpg");
+    background-position: center;
+    background-size: cover;
+      background-attachment: fixed;}<!--设置背景图片-->
